@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 2rem 8rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 2rem;
+ } 
+ .navbar-container div img{
+    height: 3.5rem;
+    margin-right: 1rem;
+ }
+ 
+.list-item:nth-child(1){
+    font-size: 2.2rem;
+    font-weight:800;
+    text-decoration: underline;
+    margin-right: 4rem;
+}
+
+.list-item:nth-child(2){
+    font-size:1.8rem;
+    margin-right:4rem;
+}
+
+.list-item:nth-child(3){
+    font-size: 1.8rem;;
+    margin-right:4rem;
+}
+
+.list-item:nth-child(4){
+    font-size: 1.8rem;
+    margin-right:4rem;
+}
+.list-item:nth-child(5){
+    font-size: 1.8rem;
+    margin-right: 4rem;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+.nav-button{
+    cursor: pointer;
+    padding: 0.8rem 2.5rem;
+    font-family: "orbitron", "Helvetica", sans-serif;
+    border-radius:1rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    color: rgb(67, 59, 59);
+    font-size: 1.2rem;
+}
+
+svg{
+    height: 2.5rem;
+    margin-right: 0.4rem;
+}
+
+.nav-button:hover{
+    border: 0.1rem solid white;
+    background: black;
+    color: white;
+}
+
+.search-icon{
+    position: relative;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.hero-container div img{
+    height: 45rem;
+    
+}
+
+.hero-container div{
+    position: relative;
+    right: 17.3rem;
+    top: 4rem;
+}
+
+.square{
+    display: inline-block;
+    position: relative;
+    left: 25rem;
+    top: 24rem;
+
+}
+
+.square img{
+    height:30rem; 
+}
+
+.globe{
+    justify-content:center;
+    position: absolute;
+    left: 87rem;
+    top: 0.5rem;
+}
+
+.globe img{
+    height: 6rem;
+}
+
+.star{
+    position: absolute;
+    left: 136rem;
+    top: 4.8rem;
+}
+
+.star img{
+    height: 5rem;
+}
+
+.hero-heading{
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 17rem;
+    font-family: "orbitron", "helvetica", "sans-serif";
+    font-size:4.5rem;
+}
+
+.hero-description{
+    margin-top: 3rem;
+    margin-left: 20rem;
+    margin-bottom:5rem;
+    font-size: 1.4rem;
+    font-family: "helvetica", "sans-serif";
+    line-height: 2.2rem;
+    font-weight: light;
+}
+
+.button-email{
+    margin-left: 55rem;
+    font-family: "orbitron", "helvetica", "sans-serif";
+    padding: 0.5rem 2.6rem;
+    border-radius:0.9rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.button-join{
+    font-family: "orbitron", "helvetica", "sans-serif";
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem 2.6rem;
+    border-radius:0.9rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.icons span:nth-child(1){
+    margin-left: 82rem;
+    margin-right:1.5rem;
+}
+
+.icons span:nth-child(2){
+    margin-right:1.5rem;
+}
+
+.icons span:nth-child(3){
+    margin-right:1.5rem;
+}
+
+.icons span:nth-child(4){
+    margin-right:1.5rem;
+}
+
+.contact-heading{
+    margin-left: 65rem;
+    margin-top: 9rem;
+    color: rgb(93, 87, 87);
+    padding: 1rem;
+    font-weight: bold;
+    font-size:2rem;
+    font-family: "orbitron", "helvetica", "sans-serif";
+}
+
+.icons{
+    display: flex;
+
+}
+
+.icons span img{
+    display: inline-block;
+    height: 3rem;
+}
+
+@media(max-width:540px){
+    html {
+        font-size: 20%;
+    }
+}
+@media(max-width:375px){
+    html {
+        font-size: 5%;
+    }
+}
+@media(max-height:740px){
+    html {
+        font-size: 15%;
+    }
+}
+@media(max-width:1024px){
+    html {
+        font-size: 35%;
+    }
+}
